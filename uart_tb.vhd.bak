@@ -1,0 +1,73 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL;
+
+entity uart_tb is
+end uart_tb;
+
+architecture tb of uart_tb is
+    -- Testbench Signals
+    signal clk       : std_logic := '0';
+    signal reset     : std_logic := '1';
+    signal rx        : std_logic := '1'; -- UART RX input
+    signal tx        : std_logic;       -- UART TX output
+    signal tx_data   : std_logic_vector(7 downto 0);
+    signal tx_ready  : std_logic;
+    signal rx_data   : std_logic_vector(7 downto 0);
+    signal rx_valid  : std_logic;
+
+    constant clk_period : time := 20 ns; -- 50 MHz clock
+
+begin
+    -- Instantiate the UART top module
+    uut: entity work.uart_top
+        port map (
+            clk       => clk,
+            reset     => reset,
+            rx        => rx,
+            tx        => tx,
+            tx_data   => tx_data,
+            tx_ready  => tx_ready,
+            rx_data   => rx_data,
+            rx_valid  => rx_valid
+        );
+
+    -- Clock Generation
+    clk_process: process
+    begin
+        while true loop
+            clk <= '0';
+            wait for clk_period / 2;
+            clk <= '1';
+            wait for clk_period / 2;
+        end loop;
+    end process;
+
+    -- Reset Logic
+    reset_process: process
+    begin
+        reset <= '1';
+        wait for 100 ns;
+        reset <= '0';
+        wait;
+    end process;
+
+    -- Test Stimulus
+    stimulus_process: process
+    begin
+        -- Wait for reset de-assertion
+        wait for 200 ns;
+
+        -- Simulate receiving data (stimulate rx signal)
+        rx <= '0'; wait for clk_period; -- Start bit
+        rx <= '1'; wait for clk_period; -- Bit 0
+        rx <= '0'; wait for clk_period; -- Bit 1
+        -- Continue for remaining bits...
+
+        -- End simulation
+        wait for 1 us;
+        assert false report "Simulation Complete" severity note;
+        wait;
+    end process;
+
+end tb;

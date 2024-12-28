@@ -1,0 +1,83 @@
+{C:/Users/user/Desktop/3rd Semester/uart project (part of tubes)/uart_top.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/user/Desktop/3rd Semester/uart project (part of tubes)/uart_top.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity uart_top
+-- Compiling architecture Behavioral of uart_top
+-- Loading entity uart_tx
+-- Loading entity uart_rx
+
+} {} {}} {C:/Users/user/Desktop/3rd Semester/uart project (part of tubes)/chacha20.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:\Users\user\Desktop\3rd Semester\uart project (part of tubes)\chacha20.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ChaCha20
+-- Compiling architecture Behavioral of ChaCha20
+** Error: C:\Users\user\Desktop\3rd Semester\uart project (part of tubes)\chacha20.vhd(40): Target type state_array in signal assignment is different from expression type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+** Error: C:\Users\user\Desktop\3rd Semester\uart project (part of tubes)\chacha20.vhd(42): Target type state_array in signal assignment is different from expression type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+** Error: (vcom-11) Could not find work.quarterround.
+** Error (suppressible): C:\Users\user\Desktop\3rd Semester\uart project (part of tubes)\chacha20.vhd(77): (vcom-1195) Cannot find expanded name "work.QuarterRound".
+** Error: C:\Users\user\Desktop\3rd Semester\uart project (part of tubes)\chacha20.vhd(77): Unknown expanded name.
+** Error: (vcom-11) Could not find work.quarterround.
+** Error (suppressible): C:\Users\user\Desktop\3rd Semester\uart project (part of tubes)\chacha20.vhd(89): (vcom-1195) Cannot find expanded name "work.QuarterRound".
+** Error: C:\Users\user\Desktop\3rd Semester\uart project (part of tubes)\chacha20.vhd(89): Unknown expanded name.
+** Error: (vcom-11) Could not find work.quarterround.
+** Error (suppressible): C:\Users\user\Desktop\3rd Semester\uart project (part of tubes)\chacha20.vhd(101): (vcom-1195) Cannot find expanded name "work.QuarterRound".
+** Error: C:\Users\user\Desktop\3rd Semester\uart project (part of tubes)\chacha20.vhd(101): Unknown expanded name.
+** Error: (vcom-11) Could not find work.quarterround.
+** Error (suppressible): C:\Users\user\Desktop\3rd Semester\uart project (part of tubes)\chacha20.vhd(113): (vcom-1195) Cannot find expanded name "work.QuarterRound".
+** Error: C:\Users\user\Desktop\3rd Semester\uart project (part of tubes)\chacha20.vhd(113): Unknown expanded name.
+** Warning: C:\Users\user\Desktop\3rd Semester\uart project (part of tubes)\chacha20.vhd(40): (vcom-1272) Length of expected is 8; length of actual is 256.
+** Warning: C:\Users\user\Desktop\3rd Semester\uart project (part of tubes)\chacha20.vhd(42): (vcom-1272) Length of expected is 2; length of actual is 64.
+** Warning: C:\Users\user\Desktop\3rd Semester\uart project (part of tubes)\chacha20.vhd(52): (vcom-1272) Length of expected is 4; length of actual is 16.
+** Warning: C:\Users\user\Desktop\3rd Semester\uart project (part of tubes)\chacha20.vhd(53): (vcom-1272) Length of expected is 4; length of actual is 16.
+** Warning: C:\Users\user\Desktop\3rd Semester\uart project (part of tubes)\chacha20.vhd(54): (vcom-1272) Length of expected is 4; length of actual is 16.
+** Warning: C:\Users\user\Desktop\3rd Semester\uart project (part of tubes)\chacha20.vhd(55): (vcom-1272) Length of expected is 4; length of actual is 16.
+** Note: C:\Users\user\Desktop\3rd Semester\uart project (part of tubes)\chacha20.vhd(125): VHDL Compiler exiting
+
+} {9.0 12.0 13.0 15.0 16.0 18.0 19.0 21.0 22.0 23.0} {}} {C:/Users/user/Desktop/3rd Semester/uart project (part of tubes)/uart_tx.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/user/Desktop/3rd Semester/uart project (part of tubes)/uart_tx.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+** Error: (vcom-11) Could not find ieee.numberic_std.
+** Error (suppressible): C:/Users/user/Desktop/3rd Semester/uart project (part of tubes)/uart_tx.vhd(3): (vcom-1195) Cannot find expanded name "ieee.numberic_std".
+** Error: C:/Users/user/Desktop/3rd Semester/uart project (part of tubes)/uart_tx.vhd(3): Unknown expanded name.
+** Note: C:/Users/user/Desktop/3rd Semester/uart project (part of tubes)/uart_tx.vhd(6): VHDL Compiler exiting
+
+} {6.0 7.0 8.0 9.0} {}} {C:/Users/user/Desktop/3rd Semester/uart project (part of tubes)/uart_tb.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:\Users\user\Desktop\3rd Semester\uart project (part of tubes)\uart_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity uart_top_tb
+-- Compiling architecture Behavioral of uart_top_tb
+-- Loading entity uart_top
+** Error: C:\Users\user\Desktop\3rd Semester\uart project (part of tubes)\uart_tb.vhd(44): (vcom-1484) Unknown formal identifier "key".
+** Error: C:\Users\user\Desktop\3rd Semester\uart project (part of tubes)\uart_tb.vhd(45): (vcom-1484) Unknown formal identifier "nonce".
+** Error: C:\Users\user\Desktop\3rd Semester\uart project (part of tubes)\uart_tb.vhd(61): (vcom-1136) Unknown identifier "send_uart_byte".
+** Error: C:\Users\user\Desktop\3rd Semester\uart project (part of tubes)\uart_tb.vhd(62): (vcom-1136) Unknown identifier "send_uart_byte".
+** Error: C:\Users\user\Desktop\3rd Semester\uart project (part of tubes)\uart_tb.vhd(63): (vcom-1136) Unknown identifier "send_uart_byte".
+** Error: C:\Users\user\Desktop\3rd Semester\uart project (part of tubes)\uart_tb.vhd(76): near "procedure": syntax error
+** Error: C:\Users\user\Desktop\3rd Semester\uart project (part of tubes)\uart_tb.vhd(80): Illegal concurrent statement.
+** Error: C:\Users\user\Desktop\3rd Semester\uart project (part of tubes)\uart_tb.vhd(83): Illegal concurrent statement.
+** Error: C:\Users\user\Desktop\3rd Semester\uart project (part of tubes)\uart_tb.vhd(84): (vcom-1136) Unknown identifier "byte".
+** Error: C:\Users\user\Desktop\3rd Semester\uart project (part of tubes)\uart_tb.vhd(85): Illegal concurrent statement.
+** Error: C:\Users\user\Desktop\3rd Semester\uart project (part of tubes)\uart_tb.vhd(90): Illegal concurrent statement.
+** Error: C:\Users\user\Desktop\3rd Semester\uart project (part of tubes)\uart_tb.vhd(91): near "procedure": (vcom-1576) expecting ';'.
+
+} {10.0 22.0} {}} {C:/Users/user/Desktop/3rd Semester/uart project (part of tubes)/uart_rx.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/user/Desktop/3rd Semester/uart project (part of tubes)/uart_rx.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity uart_rx
+-- Compiling architecture Behavioral of uart_rx
+
+} {} {}}

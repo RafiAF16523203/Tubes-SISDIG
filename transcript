@@ -1,0 +1,537 @@
+vlib work
+# ** Warning: (vlib-34) Library already exists at "work".
+vcom src/QuarterRound.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:25:26 on Dec 12,2024
+# vcom -reportprogress 300 src/QuarterRound.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity QuarterRound
+# -- Compiling architecture Behavioral of QuarterRound
+# End time: 14:25:26 on Dec 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom src/ChaCha20.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:25:26 on Dec 12,2024
+# vcom -reportprogress 300 src/ChaCha20.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ChaCha20
+# -- Compiling architecture Behavioral of ChaCha20
+# -- Loading entity QuarterRound
+# ** Warning: src/ChaCha20.vhd(61): (vcom-1272) Length of expected is 4; length of actual is 16.
+# ** Warning: src/ChaCha20.vhd(62): (vcom-1272) Length of expected is 4; length of actual is 16.
+# ** Warning: src/ChaCha20.vhd(63): (vcom-1272) Length of expected is 4; length of actual is 16.
+# ** Warning: src/ChaCha20.vhd(64): (vcom-1272) Length of expected is 4; length of actual is 16.
+# End time: 14:25:27 on Dec 12,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 4
+vcom src/uart_rx.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:25:27 on Dec 12,2024
+# vcom -reportprogress 300 src/uart_rx.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity uart_rx
+# -- Compiling architecture Behavioral of uart_rx
+# End time: 14:25:27 on Dec 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom src/uart_tx.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:25:27 on Dec 12,2024
+# vcom -reportprogress 300 src/uart_tx.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity uart_tx
+# -- Compiling architecture Behavioral of uart_tx
+# End time: 14:25:27 on Dec 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom src/uart_top.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:25:27 on Dec 12,2024
+# vcom -reportprogress 300 src/uart_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity uart_top
+# -- Compiling architecture Behavioral of uart_top
+# -- Loading entity uart_tx
+# -- Loading entity uart_rx
+# End time: 14:25:27 on Dec 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom tb/uart_top_tb.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:25:28 on Dec 12,2024
+# vcom -reportprogress 300 tb/uart_top_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity uart_top
+# -- Compiling architecture Behavioral of uart_top
+# -- Loading entity uart_tx
+# -- Loading entity uart_rx
+# End time: 14:25:28 on Dec 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+
+vsim work.uart_top_tb
+# vsim work.uart_top_tb 
+# Start time: 14:25:31 on Dec 12,2024
+# Loading std.standard
+# ** Error: (vsim-3173) Entity 'C:/Users/user/Desktop/3rd Semester/uart project (part of tubes)/work.uart_top_tb' has no architecture.
+# Error loading design
+
+# End time: 14:25:32 on Dec 12,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 5
+vlib work
+# ** Warning: (vlib-34) Library already exists at "work".
+vcom src/QuarterRound.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:25:44 on Dec 12,2024
+# vcom -reportprogress 300 src/QuarterRound.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity QuarterRound
+# -- Compiling architecture Behavioral of QuarterRound
+# End time: 14:25:44 on Dec 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom src/ChaCha20.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:25:44 on Dec 12,2024
+# vcom -reportprogress 300 src/ChaCha20.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ChaCha20
+# -- Compiling architecture Behavioral of ChaCha20
+# -- Loading entity QuarterRound
+# ** Warning: src/ChaCha20.vhd(61): (vcom-1272) Length of expected is 4; length of actual is 16.
+# ** Warning: src/ChaCha20.vhd(62): (vcom-1272) Length of expected is 4; length of actual is 16.
+# ** Warning: src/ChaCha20.vhd(63): (vcom-1272) Length of expected is 4; length of actual is 16.
+# ** Warning: src/ChaCha20.vhd(64): (vcom-1272) Length of expected is 4; length of actual is 16.
+# End time: 14:25:44 on Dec 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 4
+vcom src/uart_rx.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:25:45 on Dec 12,2024
+# vcom -reportprogress 300 src/uart_rx.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity uart_rx
+# -- Compiling architecture Behavioral of uart_rx
+# End time: 14:25:45 on Dec 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom src/uart_tx.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:25:45 on Dec 12,2024
+# vcom -reportprogress 300 src/uart_tx.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity uart_tx
+# -- Compiling architecture Behavioral of uart_tx
+# End time: 14:25:45 on Dec 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom src/uart_top.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:25:45 on Dec 12,2024
+# vcom -reportprogress 300 src/uart_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity uart_top
+# -- Compiling architecture Behavioral of uart_top
+# -- Loading entity uart_tx
+# -- Loading entity uart_rx
+# End time: 14:25:45 on Dec 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom tb/uart_top_tb.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:25:46 on Dec 12,2024
+# vcom -reportprogress 300 tb/uart_top_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity uart_top
+# -- Compiling architecture Behavioral of uart_top
+# -- Loading entity uart_tx
+# -- Loading entity uart_rx
+# End time: 14:25:46 on Dec 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+
+vsim work.uart_top_tb
+# vsim work.uart_top_tb 
+# Start time: 14:25:46 on Dec 12,2024
+# Loading std.standard
+# ** Error: (vsim-3173) Entity 'C:/Users/user/Desktop/3rd Semester/uart project (part of tubes)/work.uart_top_tb' has no architecture.
+# Error loading design
+add wave *
+# End time: 14:25:47 on Dec 12,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+run 1000ns
+# No Design Loaded!
+
+vlib work                          ;# Create working library
+# ** Warning: (vlib-34) Library already exists at "work".
+vcom src/QuarterRound.vhd          ;# Compile QuarterRound
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:29:19 on Dec 12,2024
+# vcom -reportprogress 300 src/QuarterRound.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity QuarterRound
+# -- Compiling architecture Behavioral of QuarterRound
+# End time: 14:29:19 on Dec 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom src/ChaCha20.vhd              ;# Compile ChaCha20
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:29:20 on Dec 12,2024
+# vcom -reportprogress 300 src/ChaCha20.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ChaCha20
+# -- Compiling architecture Behavioral of ChaCha20
+# -- Loading entity QuarterRound
+# ** Warning: src/ChaCha20.vhd(61): (vcom-1272) Length of expected is 4; length of actual is 16.
+# ** Warning: src/ChaCha20.vhd(62): (vcom-1272) Length of expected is 4; length of actual is 16.
+# ** Warning: src/ChaCha20.vhd(63): (vcom-1272) Length of expected is 4; length of actual is 16.
+# ** Warning: src/ChaCha20.vhd(64): (vcom-1272) Length of expected is 4; length of actual is 16.
+# End time: 14:29:20 on Dec 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 4
+vcom src/uart_rx.vhd               ;# Compile UART RX
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:29:21 on Dec 12,2024
+# vcom -reportprogress 300 src/uart_rx.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity uart_rx
+# -- Compiling architecture Behavioral of uart_rx
+# End time: 14:29:21 on Dec 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom src/uart_tx.vhd               ;# Compile UART TX
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:29:21 on Dec 12,2024
+# vcom -reportprogress 300 src/uart_tx.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity uart_tx
+# -- Compiling architecture Behavioral of uart_tx
+# End time: 14:29:21 on Dec 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom src/uart_top.vhd              ;# Compile Top-level module
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:29:22 on Dec 12,2024
+# vcom -reportprogress 300 src/uart_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity uart_top
+# -- Compiling architecture Behavioral of uart_top
+# -- Loading entity uart_tx
+# -- Loading entity uart_rx
+# End time: 14:29:22 on Dec 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom tb/uart_top_tb.vhd            ;# Compile Testbench
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:29:22 on Dec 12,2024
+# vcom -reportprogress 300 tb/uart_top_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity uart_top_tb
+# -- Compiling architecture Behavioral of uart_top_tb
+# -- Loading entity uart_top
+# ** Error: tb/uart_top_tb.vhd(44): (vcom-1484) Unknown formal identifier "key".
+# ** Error: tb/uart_top_tb.vhd(45): (vcom-1484) Unknown formal identifier "nonce".
+# ** Error: tb/uart_top_tb.vhd(61): (vcom-1136) Unknown identifier "send_uart_byte".
+# ** Error: tb/uart_top_tb.vhd(62): (vcom-1136) Unknown identifier "send_uart_byte".
+# ** Error: tb/uart_top_tb.vhd(63): (vcom-1136) Unknown identifier "send_uart_byte".
+# ** Error: tb/uart_top_tb.vhd(76): near "procedure": syntax error
+# ** Error: tb/uart_top_tb.vhd(80): Illegal concurrent statement.
+# ** Error: tb/uart_top_tb.vhd(83): Illegal concurrent statement.
+# ** Error: tb/uart_top_tb.vhd(84): (vcom-1136) Unknown identifier "byte".
+# ** Error: tb/uart_top_tb.vhd(85): Illegal concurrent statement.
+# ** Error: tb/uart_top_tb.vhd(90): Illegal concurrent statement.
+# ** Error: tb/uart_top_tb.vhd(91): near "procedure": (vcom-1576) expecting ';'.
+# End time: 14:29:23 on Dec 12,2024, Elapsed time: 0:00:01
+# Errors: 12, Warnings: 0
+# C:/intelFPGA/20.1/modelsim_ase/win32aloem/vcom failed.
+
+vcom src/uart_top.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:32:01 on Dec 12,2024
+# vcom -reportprogress 300 src/uart_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity uart_top
+# -- Compiling architecture Behavioral of uart_top
+# -- Loading entity uart_tx
+# -- Loading entity uart_rx
+# End time: 14:32:01 on Dec 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom tb/uart_top_tb.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:32:02 on Dec 12,2024
+# vcom -reportprogress 300 tb/uart_top_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity uart_top_tb
+# -- Compiling architecture Behavioral of uart_top_tb
+# -- Loading entity uart_top
+# ** Error: tb/uart_top_tb.vhd(54): (vcom-1484) Unknown formal identifier "key".
+# ** Error: tb/uart_top_tb.vhd(55): (vcom-1484) Unknown formal identifier "nonce".
+# ** Note: tb/uart_top_tb.vhd(80): VHDL Compiler exiting
+# End time: 14:32:02 on Dec 12,2024, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# C:/intelFPGA/20.1/modelsim_ase/win32aloem/vcom failed.
+
+vlib work                        ;# Create the working library if it doesn't exist
+# ** Warning: (vlib-34) Library already exists at "work".
+vcom src/uart_rx.vhd             ;# Compile UART RX module
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:34:04 on Dec 12,2024
+# vcom -reportprogress 300 src/uart_rx.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity uart_rx
+# -- Compiling architecture Behavioral of uart_rx
+# End time: 14:34:04 on Dec 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom src/uart_tx.vhd             ;# Compile UART TX module
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:34:05 on Dec 12,2024
+# vcom -reportprogress 300 src/uart_tx.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity uart_tx
+# -- Compiling architecture Behavioral of uart_tx
+# End time: 14:34:05 on Dec 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom src/uart_top.vhd            ;# Compile UART top-level module
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:34:05 on Dec 12,2024
+# vcom -reportprogress 300 src/uart_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity uart_top
+# -- Compiling architecture Behavioral of uart_top
+# -- Loading entity uart_tx
+# -- Loading entity uart_rx
+# End time: 14:34:05 on Dec 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom tb/uart_top_tb.vhd          ;# Compile the testbench
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:34:06 on Dec 12,2024
+# vcom -reportprogress 300 tb/uart_top_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity uart_top_tb
+# -- Compiling architecture Behavioral of uart_top_tb
+# -- Loading entity uart_top
+# ** Error: tb/uart_top_tb.vhd(54): (vcom-1484) Unknown formal identifier "key".
+# ** Error: tb/uart_top_tb.vhd(55): (vcom-1484) Unknown formal identifier "nonce".
+# ** Note: tb/uart_top_tb.vhd(80): VHDL Compiler exiting
+# End time: 14:34:06 on Dec 12,2024, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# C:/intelFPGA/20.1/modelsim_ase/win32aloem/vcom failed.
+
+vlib work
+# ** Warning: (vlib-34) Library already exists at "work".
+vcom src/uart_rx.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:37:20 on Dec 12,2024
+# vcom -reportprogress 300 src/uart_rx.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity uart_rx
+# -- Compiling architecture Behavioral of uart_rx
+# End time: 14:37:20 on Dec 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom src/uart_tx.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:37:20 on Dec 12,2024
+# vcom -reportprogress 300 src/uart_tx.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity uart_tx
+# -- Compiling architecture Behavioral of uart_tx
+# End time: 14:37:20 on Dec 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom src/ChaCha20.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:37:21 on Dec 12,2024
+# vcom -reportprogress 300 src/ChaCha20.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ChaCha20
+# -- Compiling architecture Behavioral of ChaCha20
+# -- Loading entity QuarterRound
+# ** Warning: src/ChaCha20.vhd(61): (vcom-1272) Length of expected is 4; length of actual is 16.
+# ** Warning: src/ChaCha20.vhd(62): (vcom-1272) Length of expected is 4; length of actual is 16.
+# ** Warning: src/ChaCha20.vhd(63): (vcom-1272) Length of expected is 4; length of actual is 16.
+# ** Warning: src/ChaCha20.vhd(64): (vcom-1272) Length of expected is 4; length of actual is 16.
+# End time: 14:37:21 on Dec 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 4
+vcom src/uart_top.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:37:21 on Dec 12,2024
+# vcom -reportprogress 300 src/uart_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity uart_top
+# -- Compiling architecture Behavioral of uart_top
+# -- Loading entity uart_tx
+# -- Loading entity uart_rx
+# End time: 14:37:21 on Dec 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom tb/uart_top_tb.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:37:22 on Dec 12,2024
+# vcom -reportprogress 300 tb/uart_top_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity uart_top_tb
+# -- Compiling architecture Behavioral of uart_top_tb
+# -- Loading entity uart_top
+# ** Error: tb/uart_top_tb.vhd(54): (vcom-1484) Unknown formal identifier "key".
+# ** Error: tb/uart_top_tb.vhd(55): (vcom-1484) Unknown formal identifier "nonce".
+# ** Note: tb/uart_top_tb.vhd(80): VHDL Compiler exiting
+# End time: 14:37:22 on Dec 12,2024, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# C:/intelFPGA/20.1/modelsim_ase/win32aloem/vcom failed.
+
+vlib work
+# ** Warning: (vlib-34) Library already exists at "work".
+vcom src/uart_rx.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:38:06 on Dec 12,2024
+# vcom -reportprogress 300 src/uart_rx.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity uart_rx
+# -- Compiling architecture Behavioral of uart_rx
+# End time: 14:38:06 on Dec 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom src/uart_tx.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:38:07 on Dec 12,2024
+# vcom -reportprogress 300 src/uart_tx.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity uart_tx
+# -- Compiling architecture Behavioral of uart_tx
+# End time: 14:38:07 on Dec 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom src/ChaCha20.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:38:07 on Dec 12,2024
+# vcom -reportprogress 300 src/ChaCha20.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ChaCha20
+# -- Compiling architecture Behavioral of ChaCha20
+# -- Loading entity QuarterRound
+# ** Warning: src/ChaCha20.vhd(61): (vcom-1272) Length of expected is 4; length of actual is 16.
+# ** Warning: src/ChaCha20.vhd(62): (vcom-1272) Length of expected is 4; length of actual is 16.
+# ** Warning: src/ChaCha20.vhd(63): (vcom-1272) Length of expected is 4; length of actual is 16.
+# ** Warning: src/ChaCha20.vhd(64): (vcom-1272) Length of expected is 4; length of actual is 16.
+# End time: 14:38:07 on Dec 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 4
+vcom src/uart_top.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:38:07 on Dec 12,2024
+# vcom -reportprogress 300 src/uart_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity uart_top
+# -- Compiling architecture Behavioral of uart_top
+# -- Loading entity uart_tx
+# -- Loading entity uart_rx
+# End time: 14:38:08 on Dec 12,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom tb/uart_top_tb.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:38:08 on Dec 12,2024
+# vcom -reportprogress 300 tb/uart_top_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity uart_top_tb
+# -- Compiling architecture Behavioral of uart_top_tb
+# -- Loading entity uart_top
+# ** Error: tb/uart_top_tb.vhd(54): (vcom-1484) Unknown formal identifier "key".
+# ** Error: tb/uart_top_tb.vhd(55): (vcom-1484) Unknown formal identifier "nonce".
+# ** Note: tb/uart_top_tb.vhd(80): VHDL Compiler exiting
+# End time: 14:38:08 on Dec 12,2024, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# C:/intelFPGA/20.1/modelsim_ase/win32aloem/vcom failed.
+
+vsim work.uart_top_tb
+# vsim work.uart_top_tb 
+# Start time: 14:38:22 on Dec 12,2024
+# Loading std.standard
+# ** Error: (vsim-3173) Entity 'C:/Users/user/Desktop/3rd Semester/uart project (part of tubes)/work.uart_top_tb' has no architecture.
+# Error loading design
+add wave *
+run 1us
+# End time: 14:38:22 on Dec 12,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+# No Design Loaded!
+

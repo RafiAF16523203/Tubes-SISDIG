@@ -1,0 +1,26 @@
+{C:/Users/user/Desktop/3rd Semester/uart project (part of tubes)/uart_top.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/user/Desktop/3rd Semester/uart project (part of tubes)/uart_top.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity uart_top
+-- Compiling architecture Behavioral of uart_top
+-- Loading entity uart_tx
+-- Loading entity uart_rx
+
+} {} {}} {C:/Users/user/Desktop/3rd Semester/uart project (part of tubes)/uart_tb.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:\Users\user\Desktop\3rd Semester\uart project (part of tubes)\uart_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity uart_tb
+-- Compiling architecture tb of uart_tb
+-- Loading entity uart_top
+** Error: C:\Users\user\Desktop\3rd Semester\uart project (part of tubes)\uart_tb.vhd(26): (vcom-1484) Unknown formal identifier "reset".
+** Error: C:\Users\user\Desktop\3rd Semester\uart project (part of tubes)\uart_tb.vhd(30): (vcom-1484) Unknown formal identifier "tx_ready".
+** Error: C:\Users\user\Desktop\3rd Semester\uart project (part of tubes)\uart_tb.vhd(32): (vcom-1484) Unknown formal identifier "rx_valid".
+** Note: C:\Users\user\Desktop\3rd Semester\uart project (part of tubes)\uart_tb.vhd(73): VHDL Compiler exiting
+
+} {10.0 13.0} {}}
